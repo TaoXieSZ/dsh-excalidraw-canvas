@@ -1,0 +1,48 @@
+{
+  "name": "@local/excalidraw-canvas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A shared hand-drawn canvas in the DeepSeek Harness right sidebar: the agent draws live, and you draw on the same board.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/TaoXieSZ/dsh-excalidraw-canvas#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaoXieSZ/dsh-excalidraw-canvas.git"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "excalidraw",
+    "canvas",
+    "diagram"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

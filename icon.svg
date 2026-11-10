@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Excalidraw canvas">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#6965db"/>
+  <rect x="13.5" y="15.5" width="25" height="21" rx="3" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M19 43.5c3.6-.6 5-3.6 7.3-5.9 2.2-2.2 5.6-4.8 8.6-7.7" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M37 24.5 45 32.5 51 26.5 43 18.5Z" fill="#ffd8a8" stroke="#ffffff" stroke-width="2.4" stroke-linejoin="round"/>
+</svg>

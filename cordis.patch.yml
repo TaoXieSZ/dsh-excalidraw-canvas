@@ -1,0 +1,3 @@
+- insert:
+    - id: excalidraw-canvas
+      name: '@local/excalidraw-canvas'
